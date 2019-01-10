@@ -136,15 +136,11 @@ To design an easy-to-use interface so that the drivers can rate their autonomous
                                 		</div>
                                 <div class="clear"></div>
                             </div>
-                        </div>
-   <div class="one margin-0">
-                                    <img src="demo-images/afd.png" alt="" />
-                                		</div>
-                                <div class="clear"></div>
+                        </di
 
          <div id="content" class="site-content content-1170 center-relative">
-<div class="one margin-1">
-	<h3 style="color: #940AC9; ">Brainstorming:</h3><br>
+
+	<h3 style="color: #F0A455; ">Brainstorming:</h3><br>
 <p style="font-size: 18px" >
 	As a team, we brainstormed to find out the challenges a driver may face to give a car a positive and negative feedback after it performs any action.The challenges we listed:<br>
 <ol>
@@ -155,68 +151,58 @@ To design an easy-to-use interface so that the drivers can rate their autonomous
 	 </p></div></div><br>
  <div id="content" class="site-content content-1170 center-relative">
 <div class="one margin-0">
-<img src="demo-images/sketch.png" alt="" /><br>
-<p style="font-size: 12px; text-align: center;line-height: 2;"> Sketches</p>
-</div><br><br>
-<div class="one margin-0">
-<img src="demo-images/pv3.jpg" alt="" /><br>
-<p style="font-size: 12px; text-align: center;line-height: 2;"> Persona</p>
-</div><br><br>
-<div class="one margin-0">
-<img src="demo-images/sb.png" alt="" /><br>
-<p style="font-size: 12px; text-align: center;line-height: 2;"> Storyboard</p>
+<img src="demo-images/hackbs.eps" alt="" /><br>
+<p style="font-size: 12px; text-align: center;line-height: 2;"> Raw notes</p>
 </div><br><hr>
 <div class="clear"></div>
 
-                                 <p style="color: #5B9F7C"><b>Literature Review and Research</b><br></p> 
-                                 <p>    1. Studied TxDOT’s Website Analysis and Evaluation Report by Design for Use (July 2010).<br>
-2. Studied material suggested by Prof Amelia Acker, the social media expert at UT’s School of Information.<br>
-3. Met Jb A Bird, Director of Media Relations and Digital Newsroom Editor at University of Texas at Austin to know about UT News Practices.<br>
+                                 <h3 style="color: #DD475C"><b>System Concept Generation</b><br></h3> 
+                                 <p style="font-size: 18px" >    <b>Assumption:</b> All the algorithms and technologies work with 100% accuracy.<br>
                                  </p>
 
-                                  <p style="color: #5B9F7C"><b>Key Findings</b><br></p> 
-                                 <p> <b>1. Insights from Website Analysis and Evaluation Report by Design for Use</b>
-Various usability issues which are still valid are:<br>
--The current visual design is text-heavy and there are screen resolution issues.<br>
--Users come to txdot.gov with specific tasks they want to accomplish. The TxDOT website has a wealth of helpful information, and due to its comprehensive size, it is not always easy for users to navigate.<br>
-<b>Helped in the identification of different user profiles:</b>
-- Driver who travels for personal needs<br>
-- Driver who evacuates in the time of a natural disaster - Driver who drives for commercial purposes<br>
-These user profiles were screened before conducting interviews in this research. This is discussed later in the report.
-                                    <p>&nbsp;</p>
+                                  <p style="font-size: 18px">The challenge was to design a user interface for drivers through which they can give feedback for vehicle's action and which can be fed to the machine learning algorithm. Our main aim was to take user's feedback in the least intrusive way possible. This was to ensure that the user doesn't get frustrated while giving feedback. This would maximize the number of feedback and help the vehicle learn even more.</p> 
+                                  <p><br>
+                                  	<b>How does the learning algorithm work?</b><br>
+                                  	The learning algorithm that was given as a part of the challenge learned through evaluative reinforcement. On every action, a manual feedback was given to the agent. The agent will keep on learning through these feedbacks. The evaluative responses can be positive or negative. <br>
 
-                                  <p>
-                                  	<b>2. Trends in News Consumption</b>
--36% of online news consumers often get news from news organizations.<br> -Two-thirds of Americans (67%) get at least some news on social media.<br>
--Online radio listening in cars, such as listening to AM/FM stations online or streaming other online audio, continues its steady increase.<br>
--Use of mobile devices for news continues to grow.<br>
--Many people get their news on Facebook rather than from
-news publishers’ websites. It enhances user engagement even more by letting them comment and share theirstories.<br>
--Podcast listeners in America have substantially increased over the past<br>
-                                  </p>        <p>&nbsp;</p> 
 
-                                 <p> <b>3. Jb Bird’s advices for TxDOT summarized:</b>
--Media engagement is essential for survival.<br>
--Website is used as a repository for all the news articles.<br>
-Stories need to be pushed through social media and press releases.
--People are most interested in news. News articles can never and should never be replaced by user stories.<br>
-- Overall ‘shares’ on social media can be accounted as a success metric and should be strived for.<br>
-- Balance brand posts and hard facts.<br>
-- Handling social media needs to be prioritised and hence TxDOT must hire more if need be.<br>
--Dissipating information instantly -through texts, emails etc- helps in increasing user engagement.</p>
+                                  	<b>How does our system work?</b><br>
+                                  	The system will keep receiving user feedback through different sources. It will associate the feedback (positive or negative) with the action taken by the vehicle and help it learn the 'preferences' of its driver.
+                                  </p><br>
+
+
+                                 <p>Our system comprised of the following elements:
+                                 		<p>
+                                 			<b>1. Voice Recognition Model :</b><br>
+                                 			This would take input of the driver's verbal comments. This would also take into account user's involuntary verbal expressions and interpret them as positive or negative.
+                                 		</p>
+                                 		<br>
+                                 			<p>
+                                 			<b>2. Facial Recognition Model :</b><br>
+                                 			This would take input of the driver's facial expressions and interpret them as positive or negative.
+                                 		</p>
+                                 		<br>
+                                 		<p>
+                                 			<b>3. Wearable Devices :</b><br>
+                                 			Input from wearable devices like smart watches can provide an insight on how the body of the driver reacts to a situation. These reactions can be interpreted. For example- if in a situation the heart rate of the driver increases rapidly, it can be interpreted as a negative feedback.
+                                 		</p><br>
+                                 		<p>
+                                 			<b>4. Voluntary User Feedback:</b><br>
+                                 			The driver can provide a feedback voluntarily through a mobile application. The UI design of this application is the main focus of the rest of this project.
+                                 		</p>
+                                 		<br>
+
+
+                                 		<p>Fedbacks from above sources will be fed to the machine learning algorithm. Based on them, the algorithm and hence the vehicle will learn the actions preferred by the user. Eventually, it will learn the social norms of that society.</p>
+                                  </p>
+                                  <div class="one margin-0">
+<img src="demo-images/hacksys.png" alt="" /><br>
+<p style="font-size: 12px; text-align: center;line-height: 2;"> System Concept</p>
+</div><br><hr>
+<div class="clear"></div>
+
+
                                 
-      <p style="color: #6E5861"><b>Competitive Analysis</b><br></p> I assessed the strengths and weaknesses of current direct and indirect competitor newsrooms. This analysis provided me with context to identify prevalent practices and opportunity areas for TxDOT to target.<p>
-									<div class="one margin-0">
-                                    <img src="demo-images/compan.png" alt="" />
-                                        <img src="demo-images/compan2.png" alt="" />
-                                	</div>
-
-                                	  <p style="color: #6E5861"><b>Key Findings</b><br></p> 
-                                 <p> The key findings from the competitive analysis were:<br>
--TxDOT is doing a fair job posting content on different social media to show its presence.<br>
--TxDOT uses text heavy data on its website, whereas its competitors make extensive use of different multimedia.<br>
--TxDOT does not have a mobile application which marks as a crucial opportunity area.<br>
-- Website severely lacks posts which speak about TxDOT. Brand association with the work that TxDOT does is poor. Whereas competitors like Whataburger had all the posts on their home page which were directly or very closely related to Whataburger.</p>
                                         
                                 <p style="color: #E49F2E"><b>Quantitative Analysis</b><br></p> <p>To substantiate the answers for the following questions:<br>
 
