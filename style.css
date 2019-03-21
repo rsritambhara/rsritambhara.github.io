@@ -22,7 +22,7 @@ body a
 
 body a:hover
 {
-    color: #2025A4;
+    color: #4A90E2;
 }
 
 .body-wrapper
@@ -234,12 +234,12 @@ body a:hover
 
 .sm-clean li a.current, .sm-clean .current_page_item a 
 {
-    color: #2025A4;
+    color: #4A90E2;
 }
 
 .main-menu.sm-clean a:hover 
 {
-    color: #2025A4;
+    color: #4A90E2;
 }
 
 .caroufredsel_wrapper:before 
@@ -260,12 +260,12 @@ body a:hover
 
 .carousel_pagination a:hover
 {
-    background-color: #2025A4;
+    background-color: #4A90E2;
 }
 
 .carousel_pagination a.selected
 {
-    background-color: #2025A4;
+    background-color: #4A90E2;
 }
 
 div.pp_default .pp_loaderIcon
@@ -394,7 +394,7 @@ div.pp_default .pp_previous:hover
 
 .post-kudo
 {
-    color: #2025A4;
+    color: #4A90E2;
     font-size: 20px;
 }
 
@@ -402,7 +402,7 @@ div.pp_default .pp_previous:hover
 {
     width: 28px;
     height: 28px;
-    border: 1px solid #2025A4;
+    border: 1px solid #4A90E2;
     border-radius: 90%;
     display: inline-block;
     vertical-align: -8px;
@@ -429,7 +429,7 @@ div.pp_default .pp_previous:hover
 {
     width: 6px;
     height: 6px;
-    border: 1px solid #2025A4;
+    border: 1px solid #4A90E2;
     border-radius: 90%;
     margin-top: 10px;
     margin-left: 10px;
@@ -437,7 +437,7 @@ div.pp_default .pp_previous:hover
 
 .small-circle.alreadyvoted
 {
-    background-color: #2025A4;
+    background-color: #4A90E2;
 }
 
 .kudos .count
@@ -511,7 +511,7 @@ div.pp_default .pp_previous:hover
 
 .page h1.entry-title .fa-heart
 {
-    color: #2025A4;
+    color: #4A90E2;
 }
 
 .page h1.entry-title .fa-heart
@@ -602,7 +602,7 @@ div.pp_default .pp_previous:hover
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #2025A4;
+    background-color: #4A90E2;
 }
 
 /* END ABOUT PAGE */
@@ -701,7 +701,7 @@ div.pp_default .pp_previous:hover
 
 .single-post .cat-links a:hover 
 {
-    color: #2025A4;
+    color: #4A90E2;
 }
 
 .single-post .cat-links a:after
@@ -732,7 +732,7 @@ div.pp_default .pp_previous:hover
 
 .single-post .post-num-comments a:hover
 {
-    color: #2025A4;
+    color: #4A90E2;
 }
 
 .wp-caption p.wp-caption-text
@@ -822,7 +822,7 @@ div.pp_default .pp_previous:hover
 
 .single-post .nav-previous a:hover, .single-post .nav-next a:hover, .single-post .nav-links a:hover + p
 {
-    color: #2025A4;   
+    color: #4A90E2;   
 }
 
 .single-post .nav-previous-text, .single-post .nav-next-text, .single-post .nav-previous-text img, .single-post .nav-next-text img
@@ -1037,9 +1037,9 @@ p.custom-field-class
 
 .contact-form input[type=submit]
 {	
-    color: #2025A4;
+    color: #4A90E2;
     display: inline-block;
-    border: 1px solid #2025A4;
+    border: 1px solid #4A90E2;
     text-align: center;
     padding: 30px 0px;
     cursor: pointer;
@@ -1058,7 +1058,7 @@ p.custom-field-class
 .contact-form input[type=submit]:hover
 {
     color: white;
-    background-color: #2025A4;
+    background-color: #4A90E2;
 }
 
 /* END CONTACT */
