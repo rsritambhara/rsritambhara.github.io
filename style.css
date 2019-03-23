@@ -890,6 +890,7 @@ div.pp_default .pp_previous:hover
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
     border: 15px solid white;
+    margin-bottom: 4%;
 }
 
 .grid-item img 
@@ -914,7 +915,7 @@ div.pp_default .pp_previous:hover
 
 .grid-item.p_one
 {
-    width: 1200px;
+    width: 900px;
 }
 
 .portfolio-text-holder
@@ -927,7 +928,7 @@ div.pp_default .pp_previous:hover
     z-index: 1;
     font-size: 20px;
     background-color: white;
-    text-align: center;   
+    text-align: center;
     display: none;    
 }
 
